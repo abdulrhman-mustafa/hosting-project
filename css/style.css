@@ -436,11 +436,11 @@ a.btn:hover::before {
         padding-top: 150px;
     }
     .caption h1 {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     }
     .caption p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .container a.btn{
         padding: 12px 30px;
@@ -550,7 +550,7 @@ section .global-icon svg {
 }
 @media (max-width: 767px) {
     .title h2 {
-    font-size: 30px;
+    font-size: 25px;
     }
     .feature .container {
         padding-top: 0;
