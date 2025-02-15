@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Style Page -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Main Files Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Button Scroll -->
+    <button id="btn-scroll">
+        <i class="fa-solid fa-turn-up"></i>
+    </button>
+    <!-- Start Header -->
+    <header id="sticky" class="d-flex align-items-center justify-content-between w-100 z-3">
+            <div class="logo">
+                <img class="img-fluid" src="imgs/logo/logo.png" loading="lazy" alt="logo">
+            </div>
+            
+            <div class="humburger d-lg-none">
+                <svg class="bars active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                <svg class="xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#fff" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+            </div>
+            
+            <nav class="p-0">
+                <ul class="d-lg-flex justify-content-lg-center align-items-lg-center m-0">
+                    <li class="under"><a href="#">Home</a></li>
+                    <li class="under"><a href="#">packages</a></li>
+                    <li class="under"><a href="#">help</a></li>
+
+
+                    <li class="under" id="list-item">
+
+
+                        <a class="link-blog" href="#">blog
+                            <div class="toggle d-lg-none">
+                                <span id="plus" class="active">+</span>
+                                <span id="mines">-</span>
+                            </div>
+                        </a>
+
+
+                        <ul class="submenu">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                            <li><a href="#">Element</a></li>
+                        </ul>
+
+                    </li>
+
+
+
+                    <li class="under"><a href="#">contact</a></li>
+    
+                    <a class="button-header" href="#">Sign up</a>
+                    <a class="button-header2" href="#">Sign in</a>
+                </ul>
+            </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <main>
+        <div class="container ">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-5 col-lg-5 col-md-9 ">
+                    <div class="caption">
+                        <span>Best Domain & hosting service provider</span>
+                        <h1 class="text-white">Powerful web hosting</h1>
+                        <p>Supercharge your WordPress hosting with detailed 
+                            website analytics, marketing tools, security, and data 
+                        backups all in one place.</p>
+                        <!-- Slider btn -->
+                        <div>
+                            <!-- Hero-btn -->
+                            <a href="#" class="btn radius-btn">get started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="hero-img d-none d-lg-block f-right">
+                        <img src="imgs/hero/hero_right.png" loading="lazy" alt="hero-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Landing -->
+    <!-- Start Domain-search -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-5">
+                    <h3 class="text-white fs-2">Search new domain</h3>
+                    <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools.</p>
+                </div>
+                <div class="col-xl-8 col-lg-7">
+                    <form class="d-flex align-items-center position-relative">
+                        <input type="search" placeholder="Search for a domain">
+                        <!-- Search Icon -->
+                        <div class="search-icon">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <!-- Global Icon -->
+                        <div class="global-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                    </form>
+                    <!-- Domain List -->
+                    <div class="single-domain">
+                        <ul class="d-flex justify-content-center align-items-center">
+                            <li><span>.com</span> <p>$15.99</li>
+                            <li><span>.net</span> <p>$10.99</li>
+                            <li><span>.rog</span> <p>$10.99</li>
+                            <li><span>.me</span> <p>$10.99</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Domain-search -->
+    <!-- Start Features -->
+    <div class="feature">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="title text-lg-center">
+                        <h2 class="text-white">Most amazing features</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-cat">
+                        <div class="cat-icon">
+                            <img src="imgs/icon/services1.svg" alt="ser1" loading="lazy">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">Employee Owned</a></h5>
+                            <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-cat">
+                        <div class="cat-icon">
+                            <img src="imgs/icon/services2.svg" loading="lazy" alt="ser2">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">Commitment to Security</a></h5>
+                            <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-cat">
+                        <div class="cat-icon">
+                            <img src="imgs/icon/services3.svg" loading="lazy" alt="ser3">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">Passion for Privacy</a></h5>
+                            <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-cat">
+                        <div class="cat-icon">
+                            <img src="imgs/icon/services4.svg" loading="lazy" alt="ser4">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">Employee Owned</a></h5>
+                            <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-cat">
+                        <div class="cat-icon">
+                            <img src="imgs/icon/services5.svg" loading="lazy" alt="ser5">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">24/7 Support</a></h5>
+                            <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-cat">
+                        <div class="cat-icon">
+                            <img src="imgs/icon/services6.svg" loading="lazy" alt="ser6">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">100% Uptime Guaranteed</a></h5>
+                            <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Pricing Card -->
+    <div class="pricing fix">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="title text-lg-center">
+                        <h2 class=" text-white">Choose plan which fit for you</h2>
+                        <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-card text-center">
+                        <div class="card-top">
+                            <img src="imgs/icon/price1.svg" alt="price1" loading="lazy">
+                            <h4>Shared Hosting</h4>
+                            <p>Starting at</p>
+                        </div>
+                        <div class="card-mid">
+                            <h4>$4.67 <span>/ month</span></h4>
+                        </div>
+                        <div class="card-bottom">
+                            <ul>
+                                <li>2 TB of space</li>
+                                <li>unlimited bandwidth</li>
+                                <li>full backup systems</li>
+                                <li>free domain</li>
+                                <li>unlimited database</li>
+                            </ul>
+                            <a href="#" class="borders-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-card text-center mb-30">
+                        <div class="card-top">
+                            <img src="imgs/icon/price2.svg" alt="price2" loading="lazy">
+                            <h4>Dedicated Hosting</h4>
+                            <p>Starting at</p>
+                        </div>
+                        <div class="card-mid">
+                            <h4>$4.67 <span>/ month</span></h4>
+                        </div>
+                        <div class="card-bottom">
+                            <ul>
+                                <li>2 TB of space</li>
+                                <li>unlimited bandwidth</li>
+                                <li>full backup systems</li>
+                                <li>free domain</li>
+                                <li>unlimited database</li>
+                            </ul>
+                            <a href="#" class="borders-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                    <div class="single-card text-center mb-30">
+                        <div class="card-top">
+                            <img src="imgs/icon/price3.svg" alt="price3" loading="lazy">
+                            <h4>Cloud Hosting</h4>
+                            <p>Starting at</p>
+                        </div>
+                        <div class="card-mid">
+                            <h4>$4.67 <span>/ month</span></h4>
+                        </div>
+                        <div class="card-bottom">
+                            <ul>
+                                <li>2 TB of space</li>
+                                <li>unlimited bandwidth</li>
+                                <li>full backup systems</li>
+                                <li>free domain</li>
+                                <li>unlimited database</li>
+                            </ul>
+                            <a href="#" class="borders-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- End Pricing Card -->
+    <!-- Start About(1) -->
+    <div class="about">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10">
+                    <div class="image">
+                        <img src="imgs/gallery/about1.png" alt="about" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12">
+                    <div class="about-caption">
+                        <div class="title">
+                            <h2>Global server location</h2>
+                        </div>
+                        <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!</p>
+                        <ul>
+                            <li>
+                                <img src="imgs/icon/right.svg" alt="right" loading="lazy">
+                                <p>WordPress hosting with detailed website</p>
+                            </li>
+                            <li>
+                                <img src="imgs/icon/right.svg" alt="right" loading="lazy">
+                                <p>Our experts are just part of the reason</p>
+                            </li>
+                            <li>
+                                <img src="imgs/icon/right.svg" alt="right" loading="lazy">
+                                <p>Detailed website analytics</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About(1) -->
+    <!-- Start About(2) -->
+    <div class="about-bottom">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-7 col-lg-7 col-md-12">
+                    <div class="about-caption">
+                        <div class="title">
+                            <h2>Dedicated support</h2>
+                        </div>
+                        <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!</p>
+                        <ul>
+                            <li>
+                                <img src="imgs/icon/right.svg" alt="right" loading="lazy">
+                                <p>WordPress hosting with detailed website</p>
+                            </li>
+                            <li>
+                                <img src="imgs/icon/right.svg" alt="right" >loading="lazy"
+                                <p>Our experts are just part of the reason</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn"><i class="fa-solid fa-phone"></i>(10) 892-293 2678</a>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-8 col-sm-10">
+                    <div class="image">
+                        <img src="imgs/gallery/about2.png" alt="about" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About(2) -->
+    <!-- Start ask questions -->
+    <section class="ask">
+        <div class="container">
+            <div class="row justify-content-lg-center">
+                <div class="col-xl-8 col-lg-9 col-md-10 ">
+                    <!-- Section Tittle -->
+                    <div class="title text-lg-center text-white">
+                        <h2>Frequently ask questions</h2>
+                        <p>Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="single-question d-flex mb-50">
+                        <span> Q.</span>
+                        <div class="pera">
+                            <h2>Why can't people connect to the web server on my PC?</h2>
+                            <p>We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and extensive DDoS protection.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="single-question d-flex mb-50">
+                        <span> Q.</span>
+                        <div class="pera">
+                            <h2>What domain name should I choose for my site?</h2>
+                            <p>We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and extensive DDoS protection.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="single-question d-flex mb-50">
+                        <span> Q.</span>
+                        <div class="pera">
+                            <h2>How can I make my website work without www. in front?</h2>
+                            <p>We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and extensive DDoS protection.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="single-question d-flex mb-50">
+                        <span> Q.</span>
+                        <div class="pera">
+                            <h2>Why does Internet Information Server want a password?</h2>
+                            <p>We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and extensive DDoS protection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 position-relative">
+                    <div class="more-btn mt-20">
+                        <a href="#" class="btn">Go to Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End ask questions -->
+    <!-- Start Testimonials -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class=" col-lg-10 col-md-12 col-sm-11">
+
+
+                    <div class="slider mySwiper text-center">
+                        <div class="testi-content swiper-wrapper">
+
+                            <div class="slide swiper-slide">
+                                <div class="testi-caption">
+                                    <p>Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se.</p>
+                                </div>
+                                <!-- founder -->
+                                <div class="testi-founder d-flex align-items-center justify-content-center">
+                                    <div class="founder-img">
+                                        <img src="imgs/icon/testimonial.png" alt="testi" loading="lazy">
+                                    </div>
+                                    <div class="founder-text">
+                                        <span>Jacson Miller</span>
+                                        <p>Designer @Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <div class="testi-caption">
+                                    <p>Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se.</p>
+                                </div>
+                                <!-- founder -->
+                                <div class="testi-founder d-flex align-items-center justify-content-center">
+                                    <div class="founder-img">
+                                        <img src="imgs/icon/testimonial.png" alt="testi" loading="lazy">
+                                    </div>
+                                    <div class="founder-text">
+                                        <span>Jacson Miller</span>
+                                        <p>Designer @Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide swiper-slide">
+                                <div class="testi-caption">
+                                    <p>Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se.</p>
+                                </div>
+                                <!-- founder -->
+                                <div class="testi-founder d-flex align-items-center justify-content-center">
+                                    <div class="founder-img">
+                                        <img src="imgs/icon/testimonial.png" alt="testi" loading="lazy">
+                                    </div>
+                                    <div class="founder-text">
+                                        <span>Jacson Miller</span>
+                                        <p>Designer @Colorlib</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="footer-wrappr">
+            <div class="footer-area">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <!-- logo -->
+                                <div class="footer-logo mb-25">
+                                    <a href="index.html"><img src="imgs/logo/logo2_footer.png" alt="logo" loading="lazy"></a>
+                                </div>
+                                <div class="footer-tittle mb-50">
+                                    <p>Subscribe our newsletter to get updates about our services</p>
+                                </div>
+                                <!-- Form -->
+                                <div class="footer-form">
+                                    <div>
+                                        <form>
+                                            <input type="email" name="EMAIL" placeholder=" Email Address">
+                                            <div class="form-icon">
+                                                <button type="submit" name="submit" class="btn">
+                                                    Subscribe
+                                                </button>
+                                            </div>
+                                            <div class="mt-10 info"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social mt-50">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Company</h4>
+                                    <ul>
+                                        <li><a href="#">Why choose us</a></li>
+                                        <li><a href="#"> Review</a></li>
+                                        <li><a href="#">Customers</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Carrier</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Products</h4>
+                                    <ul>
+                                        <li><a href="#">Why choose us</a></li>
+                                        <li><a href="#"> Review</a></li>
+                                        <li><a href="#">Customers</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Carrier</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Support</h4>
+                                    <ul>
+                                        <li><a href="#">Technology</a></li>
+                                        <li><a href="#">  Products</a></li>
+                                        <li><a href="#">Customers</a></li>
+                                        <li><a href="#">Quality</a></li>
+                                        <li><a href="#">Sales geography</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-bottom area -->
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="footer-copy-right text-center">
+                                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                        Copyright &copy; All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <!-- Main File -->
+    <script src="js/main.js"></script>
+</body>
+</html>
